@@ -1,2 +1,5 @@
-# react-finance-dashboard
-Interactive finance dashboard built with React. Demonstrates frontend development, state management, and UI design for financial applications.
+## ⚙️ Installation
+1. Clone the repo: `git clone https://github.com/aronbariagabr/react-finance-dashboard`
+2. Navigate to the folder: `cd react-finance-dashboard`
+3. Install dependencies: `npm install`
+4. Run the app: `npm start`
