@@ -21,17 +21,6 @@ Interactive finance dashboard built with React. Demonstrates modern frontend des
 - Custom hook for state management
 - Unit tests for reliability
 
-## 🏗️ Architecture Diagram (Mermaid)
-flowchart TD
-    User[User Input] --> Form[TransactionForm]
-    Form --> Hook[useTransactions]
-    Hook --> Balance[BalanceCard]
-    Hook --> History[TransactionHistory]
-    Balance --> UI[Updated UI]
-    History --> UI
-    ## 🖼️ Screenshots
-*(Screenshots coming soon — UI preview will be added here)*
-
 ## 📫 Contact
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Aron%20Bariagabr-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/aron-ukbay-bariagabr-5551a8391/)
@@ -88,7 +77,16 @@ react-finance-dashboard/
 │   TransactionHistory)                     │
 └───────────────────────────────────────────┘
 
-
+## 🏗️ Architecture Diagram (Mermaid)
+flowchart TD
+    User[User Input] --> Form[TransactionForm]
+    Form --> Hook[useTransactions]
+    Hook --> Balance[BalanceCard]
+    Hook --> History[TransactionHistory]
+    Balance --> UI[Updated UI]
+    History --> UI
+    ## 🖼️ Screenshots
+*(Screenshots coming soon — UI preview will be added here)*
 
 ## 🖼️ UI Mockup (ASCII Style)
 ┌───────────────────────────────┐
