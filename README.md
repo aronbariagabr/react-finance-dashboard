@@ -1,9 +1,10 @@
 # React Finance Dashboard
 
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-blue)
-![React](https://img.shields.io/badge/react-18.2-blue)
-![Jest](https://img.shields.io/badge/tests-passing-green)
+## 🛠️ Tech Stack
+[![React](https://img.shields.io/badge/React-18.2-blue?logo=react)]()
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript)]()
+[![Jest](https://img.shields.io/badge/Jest-passing-green?logo=jest)]()
+
 
 ## 📊 Overview
 Interactive finance dashboard built with React. Demonstrates modern frontend design, state management with hooks, and testing discipline. Users can view balances, add deposits/withdrawals, and track transaction history.
@@ -42,6 +43,8 @@ react-finance-dashboard/
 │   │   ├── BalanceCard.jsx
 │   │   ├── TransactionForm.jsx
 │   │   └── TransactionHistory.jsx
+│   ├── pages/
+│   │   └── FinanceDashboard.jsx
 │   ├── hooks/
 │   │   └── useTransactions.js
 │   ├── App.jsx
