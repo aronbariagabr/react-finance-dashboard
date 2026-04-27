@@ -113,9 +113,9 @@ graph TD
 
 ## 📫 Contact
 
-[![GitHub](https://img.shields.io/badge/GitHub-aronbariagabr-black?logo=github)](https://github.com/aronbariagabr)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-aronbariagabr-blue?logo=linkedin)](https://linkedin.com/in/aronbariagabr)  
-[![Email](https://img.shields.io/badge/Email-bariagabra@gmail.com-red?logo=gmail)](mailto:bariagabra@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aron%20Bariagabr-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/aron-ukbay-bariagabr-5551a8391/)
+[![GitHub](https://img.shields.io/badge/GitHub-aronbariagabr-black?style=flat&logo=github)](https://github.com/aronbariagabr)
+[![Email](https://img.shields.io/badge/Email-bariagabra%40gmail.com-red?style=flat&logo=gmail)](mailto:bariagabra@gmail.com)
 
 
 
