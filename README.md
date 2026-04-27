@@ -114,3 +114,4 @@ graph TD
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-aronbariagabr-blue?logo=linkedin)](https://linkedin.com/in/aronbariagabr)  
 [![Email](https://img.shields.io/badge/Email-aron@example.com-red?logo=gmail)](mailto:aron@example.com)
 
+
