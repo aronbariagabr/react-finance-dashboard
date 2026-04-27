@@ -1,21 +1,54 @@
 # React Finance Dashboard
 
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![React](https://img.shields.io/badge/react-18.2-blue)
+![Jest](https://img.shields.io/badge/tests-passing-green)
+
 ## 📊 Overview
-Interactive finance dashboard built with React. Demonstrates frontend development, state management, and UI design for financial applications.
+Interactive finance dashboard built with React. Demonstrates modern frontend design, state management with hooks, and testing discipline. Users can view balances, add deposits/withdrawals, and track transaction history.
 
 ## 🛠️ Tech Stack
-- React
+- React 18.2
 - JavaScript (ES6+)
-- State management with React hooks
+- React Hooks
+- Jest / React Testing Library
 
 ## 🚀 Features
-- Displays current balance
-- Deposit and withdraw actions
-- Simple, clean UI for financial tracking
+- View current balance
+- Add deposits and withdrawals
+- Transaction history list
+- Custom hook for state management
+- Unit tests for reliability
 
-## 🎯 Purpose
-This project highlights frontend development skills and connects to my experience building financial platforms at DXC Technology.
+## ⚡ Quickstart
+```bash
+git clone https://github.com/aronbariagabr/react-finance-dashboard.git
+cd react-finance-dashboard
+npm install
+npm start
 
-## 📫 Contact
-- GitHub: [https://github.com/aronbariagabr](https://github.com/aronbariagabr)
-- Email: aron@example.com
+##📂 Repository Structure
+react-finance-dashboard/
+├── src/
+│   ├── components/
+│   │   ├── BalanceCard.jsx
+│   │   ├── TransactionForm.jsx
+│   │   └── TransactionHistory.jsx
+│   ├── hooks/
+│   │   └── useTransactions.js
+│   ├── App.jsx
+│   └── index.js
+├── tests/
+│   └── Dashboard.test.js
+├── package.json
+└── README.md
+
+## 🏗️ Architecture Diagram (Mermaid)
+flowchart TD
+    User[User Input] --> Form[TransactionForm]
+    Form --> Hook[useTransactions]
+    Hook --> Balance[BalanceCard]
+    Hook --> History[TransactionHistory]
+    Balance --> UI[Updated UI]
+    History --> UI
