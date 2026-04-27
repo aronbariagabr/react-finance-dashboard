@@ -28,6 +28,7 @@ cd react-finance-dashboard
 npm install
 npm start
 
+
 ##📂 Repository Structure
 react-finance-dashboard/
 ├── src/
@@ -44,6 +45,32 @@ react-finance-dashboard/
 ├── package.json
 └── README.md
 
+## 🧩 Architectural Box‑Style Diagram (Blackboard Style)
+
+```text
+┌───────────────────────────────────────────┐
+│               User Interface              │
+│   React Components (BalanceCard,          │
+│   TransactionForm, TransactionHistory)    │
+└───────────────────────────┬───────────────┘
+                            │
+┌───────────────────────────┴───────────────┐
+│          State Management Layer           │
+│   Custom Hook (useTransactions)           │
+└───────────────────────────┬───────────────┘
+                            │
+┌───────────────────────────┴───────────────┐
+│           Data Flow & Logic               │
+│   Balance Updates, Transaction Recording, │
+│   History Tracking                        │
+└───────────────────────────┬───────────────┘
+                            │
+┌───────────────────────────┴───────────────┐
+│           Presentation Layer              │
+│   Updated UI (BalanceCard,                │
+│   TransactionHistory)                     │
+└───────────────────────────────────────────┘
+
 ## 🏗️ Architecture Diagram (Mermaid)
 flowchart TD
     User[User Input] --> Form[TransactionForm]
@@ -52,3 +79,38 @@ flowchart TD
     Hook --> History[TransactionHistory]
     Balance --> UI[Updated UI]
     History --> UI
+    ## 🖼️ Screenshots
+*(Screenshots coming soon — UI preview will be added here)*
+
+## 🖼️ UI Mockup (ASCII Style)
+┌───────────────────────────────┐
+│       Finance Dashboard       │
+├───────────────────────────────┤
+│ Balance: $1000.00             │
+├───────────────────────────────┤
+│ [ Amount: ____ ] [Deposit ▼] │
+│ [   Add Transaction Button ] │
+├───────────────────────────────┤
+│ Transaction History           │
+│ • Deposit of $500             │
+│ • Withdraw of $200            │
+└───────────────────────────────┘
+
+## 🏗️ Wireframe Diagram (Mermaid)
+```mermaid
+graph TD
+  A[Dashboard UI] --> B[BalanceCard]
+  A --> C[TransactionForm]
+  A --> D[TransactionHistory]
+
+
+## 📝 Future Work
+- Add charts with Chart.js/Recharts  
+- Persistent storage (localStorage/Firebase)  
+- Authentication for multi‑user dashboards  
+
+## 📫 Contact
+- GitHub: [https://github.com/aronbariagabr](https://github.com/aronbariagabr)  
+- LinkedIn: https://linkedin.com/in/aronbariagabr  
+- Email: aron@example.com  
+
