@@ -23,16 +23,8 @@ Interactive finance dashboard built with React. Demonstrates modern frontend des
 - Custom hook for state management  
 - Unit tests for reliability  
 
-## ⚡ Quickstart
-```bash
-git clone https://github.com/aronbariagabr/react-finance-dashboard.git
-cd react-finance-dashboard
-npm install
-npm start
-
-
-
 ##📂 Repository Structure
+```bash
 react-finance-dashboard/
 ├── src/
 │   ├── components/
@@ -50,6 +42,12 @@ react-finance-dashboard/
 ├── package.json
 └── README.md
 
+## ⚡ Quickstart
+```bash
+git clone https://github.com/aronbariagabr/react-finance-dashboard.git
+cd react-finance-dashboard
+npm install
+npm start
 
 ## 🧩 Architectural Box‑Style Diagram (Blackboard Style)
 
