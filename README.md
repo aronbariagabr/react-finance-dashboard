@@ -107,12 +107,3 @@ flowchart TD
     Hook --> History[TransactionHistory]
     Balance --> UI[Updated UI]
     History --> UI
-
-
-## 🏗️ Wireframe Diagram (Mermaid)
-```mermaid
-graph TD
-  A[Dashboard UI] --> B[BalanceCard]
-  A --> C[TransactionForm]
-  A --> D[TransactionHistory]
-
