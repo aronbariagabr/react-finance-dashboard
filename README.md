@@ -100,6 +100,12 @@ flowchart TD
 │ • Withdraw of $200            │
 └───────────────────────────────┘
 
+## 📝 Future Work
+- Add charts with Chart.js/Recharts 
+- Persistent storage (localStorage/Firebase)  
+- Authentication for multi‑user dashboards 
+
+
 ## 🏗️ Wireframe Diagram (Mermaid)
 ```mermaid
 graph TD
@@ -107,10 +113,7 @@ graph TD
   A --> C[TransactionForm]
   A --> D[TransactionHistory]
 
-## 📝 Future Work
-- Add charts with Chart.js/Recharts 
-- Persistent storage (localStorage/Firebase)  
-- Authentication for multi‑user dashboards 
+
 
 
 
