@@ -74,8 +74,10 @@ npm start
 │   Updated UI (BalanceCard,                │
 │   TransactionHistory)                     │
 └───────────────────────────────────────────┘
+```
 
 ## 🏗️ Architecture Diagram (Mermaid)
+```mermaid
 flowchart TD
     User[User Input] --> Form[TransactionForm]
     Form --> Hook[useTransactions]
