@@ -49,6 +49,22 @@ cd react-finance-dashboard
 npm install
 npm start
 
+*(Screenshots coming soon — UI preview will be added here)*
+
+## 🖼️ UI Mockup (ASCII Style)
+┌───────────────────────────────┐
+│       Finance Dashboard       │
+├───────────────────────────────┤
+│ Balance: $1000.00             │
+├───────────────────────────────┤
+│ [ Amount: ____ ] [Deposit ▼] │
+│ [   Add Transaction Button ] │
+├───────────────────────────────┤
+│ Transaction History           │
+│ • Deposit of $500             │
+│ • Withdraw of $200            │
+└───────────────────────────────┘
+
 ## 🧩 Architectural Box‑Style Diagram (Blackboard Style)
 
 ```text
@@ -74,7 +90,13 @@ npm start
 │   Updated UI (BalanceCard,                │
 │   TransactionHistory)                     │
 └───────────────────────────────────────────┘
+
+## 📝 Future Work
+- Add charts with Chart.js/Recharts 
+- Persistent storage (localStorage/Firebase)  
+- Authentication for multi‑user dashboards 
 ```
+
 
 ## 🏗️ Architecture Diagram (Mermaid)
 ```mermaid
@@ -86,27 +108,6 @@ flowchart TD
     Balance --> UI[Updated UI]
     History --> UI
 
-*(Screenshots coming soon — UI preview will be added here)*
-
-## 🖼️ UI Mockup (ASCII Style)
-┌───────────────────────────────┐
-│       Finance Dashboard       │
-├───────────────────────────────┤
-│ Balance: $1000.00             │
-├───────────────────────────────┤
-│ [ Amount: ____ ] [Deposit ▼] │
-│ [   Add Transaction Button ] │
-├───────────────────────────────┤
-│ Transaction History           │
-│ • Deposit of $500             │
-│ • Withdraw of $200            │
-└───────────────────────────────┘
-
-## 📝 Future Work
-- Add charts with Chart.js/Recharts 
-- Persistent storage (localStorage/Firebase)  
-- Authentication for multi‑user dashboards 
-
 
 ## 🏗️ Wireframe Diagram (Mermaid)
 ```mermaid
@@ -114,10 +115,4 @@ graph TD
   A[Dashboard UI] --> B[BalanceCard]
   A --> C[TransactionForm]
   A --> D[TransactionHistory]
-
-
-
-
-
-
 
