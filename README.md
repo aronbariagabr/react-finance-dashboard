@@ -107,3 +107,20 @@ flowchart TD
     Hook --> History[TransactionHistory]
     Balance --> UI[Updated UI]
     History --> UI
+
+    %% Define six unique color classes
+    classDef input fill:#ffcc00,stroke:#333,stroke-width:2px;
+    classDef form fill:#00ccff,stroke:#333,stroke-width:2px;
+    classDef hook fill:#66ff66,stroke:#333,stroke-width:2px;
+    classDef balance fill:#ff9966,stroke:#333,stroke-width:2px;
+    classDef history fill:#cc99ff,stroke:#333,stroke-width:2px;
+    classDef ui fill:#ff6666,stroke:#333,stroke-width:2px;
+
+    %% Apply classes to each box
+    class User input;
+    class Form form;
+    class Hook hook;
+    class Balance balance;
+    class History history;
+    class UI ui;
+
